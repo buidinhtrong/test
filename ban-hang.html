@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Đơn Giản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* Để tự động xuống hàng nếu không đủ chỗ */
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 48%;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .product img {
+            max-width: 150px; /* Kích thước mong muốn */
+            height: auto; /* Giữ tỷ lệ khung hình */
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cửa Hàng Đơn Giản</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Sản Phẩm</h2>
+        <div class="product">
+            <h3>Bún bò</h3>
+            <img src="download.jpg" alt="Ảnh bún bò">
+            <p>Giá: 50.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <h3>Bún chả</h3>
+            <img src="buncha.jpg" alt="Ảnh bún chả">
+            <p>Giá: 25.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <h3>Bún riêu cua</h3>
+            <img src="bunrieucua.jpg" alt="Ảnh bún riêu cua">
+            <p>Giá: 50.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+        <a href="test_baby_web.html" class="back-link">Quay lại trang chính</a><br>
+        <a href="game.html" class="back-link">Minigame</a>
+    </section>
+
+    <section>
+        <h2>Đồ Uống</h2>
+        <div class="product">
+            <h3>Bò húc</h3>
+            <img src="bohuc.jpg" alt="Ảnh bò húc">
+            <p>Giá: 15.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <h3>Coca</h3>
+            <img src="coca.jpg" alt="Ảnh Coca">
+            <p>Giá: 10.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+        <div class="product">
+            <h3>Sting</h3>
+            <img src="sting.jpg" alt="Ảnh Sting">
+            <p>Giá: 10.000 VNĐ</p>
+            <button>Mua Ngay</button>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Cửa Hàng Đơn Giản. Tất cả quyền được bảo lưu.</p><br>
+    <a href="test_baby_web.html" class="back-link">Quay lại trang chính</a><br>
+    <a href="game.html" class="back-link">Minigame</a>
+</footer>
+
+</body>
+</html>
